@@ -77,18 +77,47 @@
 // console.log(result);
 
   
- function woodCalculate(chairQty, tableQty, bedQty){
-    let perchairWood=4;
-    let perbedWood=10;
-    let pertableWood=15;
+//  function woodCalculate(chairQty, tableQty, bedQty){
+//     let perchairWood=4;
+//     let perbedWood=10;
+//     let pertableWood=15;
 
-    const chairWoodQty=chairQty*perchairWood;
-    const tableWoodQty=tableQty*pertableWood;
-    const bedWoodQty=bedQty*perbedWood;
+//     const chairWoodQty=chairQty*perchairWood;
+//     const tableWoodQty=tableQty*pertableWood;
+//     const bedWoodQty=bedQty*perbedWood;
 
-    return chairWoodQty+tableWoodQty+bedWoodQty;
- };
+//     return chairWoodQty+tableWoodQty+bedWoodQty;
+//  };
 
-console.log(woodCalculate(5,6,2));
+// console.log(woodCalculate(5,6,2));
 
+
+// 1-50
+
+for(i=1;i<=50;i++){
+    // console.log(i);
+    if(i/3==0 && i/5==0){
+        console.log("foobar");
+    }else if(i/3==0){
+        console.log("foo");
+    }else if(i/5==0){
+        console.log("bar");
+    }
+    else{
+        console.log(i);
+    }
+}
+for(i=1;i<=50;i++){
+    // console.log(i);
+    if(i%3==0 && i%5==0){
+        console.log("foobar");
+    }else if(i%3==0){
+        console.log("foo");
+    }else if(i%5==0){
+        console.log("bar");
+    }
+    else{
+        console.log(i);
+    }
+}
 
