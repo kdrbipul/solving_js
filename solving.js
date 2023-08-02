@@ -76,4 +76,19 @@
 // const result=add(10+10);
 // console.log(result);
 
- 
+  
+ function woodCalculate(chairQty, tableQty, bedQty){
+    let perchairWood=4;
+    let perbedWood=10;
+    let pertableWood=15;
+
+    const chairWoodQty=chairQty*perchairWood;
+    const tableWoodQty=tableQty*pertableWood;
+    const bedWoodQty=bedQty*perbedWood;
+
+    return chairWoodQty+tableWoodQty+bedWoodQty;
+ };
+
+console.log(woodCalculate(5,6,2));
+
+
